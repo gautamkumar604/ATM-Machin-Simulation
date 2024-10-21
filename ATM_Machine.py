@@ -121,7 +121,7 @@ def atm_menu():
 
         if option == 1:
             atm_user.account_balance_inquiry()
-            break
+            # break
         elif option == 2:
             atm_user.cash_withdrawal()
             # break
@@ -131,10 +131,10 @@ def atm_menu():
         elif option == 4:
             pin = atm_user.pin_change()
             # print(f"Your new pin number is {pin}")
-            break
+            # break
         elif option == 5:
             atm_user.check_transactions_history()
-            break
+            # break
         elif option == 0:
             print("You have succesfully logged out.\nThanks to use our ATM.")
             break
